@@ -1,4 +1,4 @@
-#🌐 IDEA
+🌐 IDEA
 
 Intelligent Development for Education & Assistance
 (Desarrollo Inteligente para la Educación y la Asistencia)
