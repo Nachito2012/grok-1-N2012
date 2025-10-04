@@ -1,56 +1,78 @@
-# Grok-1
+#🌐 IDEA
 
-This repository contains JAX example code for loading and running the Grok-1 open-weights model.
+Intelligent Development for Education & Assistance
+(Desarrollo Inteligente para la Educación y la Asistencia)
 
-Make sure to download the checkpoint and place the `ckpt-0` directory in `checkpoints` - see [Downloading the weights](#downloading-the-weights)
 
-Then, run
+---
 
-```shell
-pip install -r requirements.txt
-python run.py
-```
+💡 ¿Qué es IDEA?
 
-to test the code.
+IDEA es una escuela virtual moderna y accesible, que combina la creatividad humana con la inteligencia artificial Grok-1 para que aprendas lo que quieras, cuando quieras.
 
-The script loads the checkpoint and samples from the model on a test input.
+🎶 Música, 💻 tecnología, 🎨 arte, 📈 negocios, 🌍 idiomas... ¡vos elegís tu camino!
 
-Due to the large size of the model (314B parameters), a machine with enough GPU memory is required to test the model with the example code.
-The implementation of the MoE layer in this repository is not efficient. The implementation was chosen to avoid the need for custom kernels to validate the correctness of the model.
 
-# Model Specifications
+---
 
-Grok-1 is currently designed with the following specifications:
+🚀 Nuestra misión
 
-- **Parameters:** 314B
-- **Architecture:** Mixture of 8 Experts (MoE)
-- **Experts Utilization:** 2 experts used per token
-- **Layers:** 64
-- **Attention Heads:** 48 for queries, 8 for keys/values
-- **Embedding Size:** 6,144
-- **Tokenization:** SentencePiece tokenizer with 131,072 tokens
-- **Additional Features:**
-  - Rotary embeddings (RoPE)
-  - Supports activation sharding and 8-bit quantization
-- **Maximum Sequence Length (context):** 8,192 tokens
+Hacer que la educación de calidad llegue a todos, sin importar edad, lugar o experiencia.
+Queremos que cualquier persona pueda transformar su idea en conocimiento, y su conocimiento en oportunidades reales.
 
-# Downloading the weights
 
-You can download the weights using a torrent client and this magnet link:
+---
 
-```
-magnet:?xt=urn:btih:5f96d43576e3d386c9ba65b883210a393b68210e&tr=https%3A%2F%2Facademictorrents.com%2Fannounce.php&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce
-```
+🌟 ¿Qué vas a encontrar en IDEA?
 
-or directly using [HuggingFace 🤗 Hub](https://huggingface.co/xai-org/grok-1):
-```
-git clone https://github.com/xai-org/grok-1.git && cd grok-1
-pip install huggingface_hub[hf_transfer]
-huggingface-cli download xai-org/grok-1 --repo-type model --include ckpt-0/* --local-dir checkpoints --local-dir-use-symlinks False
-```
+✅ Cursos en diferentes ramas (desde programación hasta arte).
+✅ Asistencia personalizada con inteligencia artificial.
+✅ Talleres prácticos para aplicar lo que aprendés.
+✅ Comunidad de estudiantes y mentores de todo el mundo.
+✅ Certificados digitales que validan tu progreso.
 
-# License
 
-The code and associated Grok-1 weights in this release are licensed under the
-Apache 2.0 license. The license only applies to the source files in this
-repository and the model weights of Grok-1.
+---
+
+🔑 ¿Por qué elegir IDEA?
+
+✨ Accesible: solo necesitás internet y ganas de aprender.
+✨ Flexible: vos marcás el ritmo de tus estudios.
+✨ Innovadora: con IA, cada clase se adapta a vos.
+✨ Práctica: aprendés haciendo, no solo leyendo.
+
+
+---
+
+🎨 Nuestra identidad
+
+Logo: una bombilla que representa la creatividad y la tecnología.
+
+Colores:
+
+Azul → confianza y tecnología.
+
+Verde → crecimiento y aprendizaje.
+
+Amarillo → energía y creatividad.
+
+
+Eslogan:
+
+“De una IDEA nace el futuro.”
+
+
+
+
+---
+
+🔮 El futuro de IDEA
+
+🌍 Llegar a millones de estudiantes en todo el mundo.
+🎓 Convertirse en la universidad virtual de referencia internacional.
+🕶️ Usar realidad aumentada y VR para hacer las clases más inmersivas.
+
+
+---
+
+✨ IDEA no es solo una escuela. Es el lugar donde tu curiosidad se convierte en conocimiento, y tu conocimiento en futuro.
