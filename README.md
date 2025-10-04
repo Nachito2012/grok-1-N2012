@@ -1,3 +1,9 @@
+[![](https://i.postimg.cc/c1vMQjQy/IMG-20251003-WA0011.jpg)](#)
+
+
+
+
+
 🌐 IDEA
 
 Intelligent Development for Education & Assistance
